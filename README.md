@@ -63,8 +63,8 @@ Result: Exactly 1 unique pothole recorded with GPS coordinates and peak severity
 
 ### 1. Clone & Set Up Environment
 ```bash
-git clone https://github.com/your-username/cs474_pothole_project.git
-cd cs474_pothole_project
+git clone https://github.com/Aditya8120/Pothole_Detection.git
+cd Pothole_Detection
 
 # Create and activate virtual environment
 python3 -m venv venv
@@ -266,8 +266,8 @@ Train on a free GPU in Google Colab with these commands:
 
 ```python
 # 1. Clone repository
-!git clone https://github.com/your-username/cs474_pothole_project.git
-%cd cs474_pothole_project
+!git clone https://github.com/Aditya8120/Pothole_Detection.git
+%cd Pothole_Detection
 
 # 2. Install dependencies
 !pip install -r requirements.txt
@@ -313,7 +313,7 @@ See the comprehensive <a href="PROJECT_DOCUMENTATION.md">PROJECT_DOCUMENTATION.m
   title = {Road Condition and Pothole Detection from Dashcam Video},
   year = {2026},
   publisher = {GitHub},
-  howpublished = {\url{https://github.com/your-username/cs474_pothole_project}}
+  howpublished = {\url{https://github.com/Aditya8120/Pothole_Detection}}
 }
 ```
 
