@@ -3,7 +3,7 @@
 torch>=2.0.0
 torchvision>=0.15.0
 ultralytics>=8.1.0
-opencv-python>=4.8.0
+opencv-python-headless>=4.8.0
 supervision>=0.18.0
 
 # Scientific Computing & Data Processing
