@@ -256,7 +256,11 @@ def main():
 
         st.markdown("---")
         st.subheader("📁 Input Video Source")
-        video_mode = st.radio("Select Video Input:", ["Pre-packaged Demo Dashcam", "Upload Custom Video"], index=0)
+        video_mode = st.radio(
+            "Select Video Input:",
+            ["Pre-packaged Demo Dashcam", "Real-World Sample 1 (Potholes)", "Real-World Sample 2 (Road Distress)", "Upload Custom Video"],
+            index=0
+        )
 
         uploaded_file = None
         if video_mode == "Upload Custom Video":
@@ -292,6 +296,12 @@ def main():
                 from scripts.inference_video import generate_synthetic_demo_video
                 generate_synthetic_demo_video(str(demo_path))
             temp_input_video = str(demo_path)
+        elif video_mode == "Real-World Sample 1 (Potholes)":
+            pothole_sample = Path("Sample_pothole_Video.mp4")
+            temp_input_video = str(pothole_sample) if pothole_sample.exists() else str(Path("data/demo_dashcam.mp4"))
+        elif video_mode == "Real-World Sample 2 (Road Distress)":
+            distress_sample = Path("Sample_Video_2.mp4")
+            temp_input_video = str(distress_sample) if distress_sample.exists() else str(Path("data/demo_dashcam.mp4"))
 
         col_run, col_status = st.columns([1, 3])
         with col_run:
