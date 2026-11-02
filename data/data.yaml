@@ -1,0 +1,8 @@
+path: /Users/adi/DL_Assignment/data
+train: images/train
+val: images/val
+nc: 3
+names:
+  0: pothole
+  1: crack
+  2: rough_patch

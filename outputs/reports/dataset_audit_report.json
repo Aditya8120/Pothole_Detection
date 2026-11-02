@@ -1,0 +1,39 @@
+{
+    "dataset_root": "/Users/adi/DL_Assignment/data",
+    "statistics": {
+        "train": {
+            "images": 40,
+            "labels": 40,
+            "corrupt": 0,
+            "instances": {
+                "0": 27,
+                "1": 32,
+                "2": 34
+            }
+        },
+        "val": {
+            "images": 10,
+            "labels": 10,
+            "corrupt": 0,
+            "instances": {
+                "0": 10,
+                "1": 6,
+                "2": 8
+            }
+        },
+        "invalid_boxes": 0,
+        "orphaned_images": 0,
+        "orphaned_labels": 0
+    },
+    "class_weights": {
+        "pothole": 1.1481,
+        "crack": 0.9688,
+        "rough_patch": 0.9118
+    },
+    "classes": {
+        "0": "pothole",
+        "1": "crack",
+        "2": "rough_patch"
+    },
+    "status": "PASS"
+}

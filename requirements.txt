@@ -1,0 +1,27 @@
+# CS474 Deep Learning Major Project: Road Condition and Pothole Detection
+# Core Deep Learning & Computer Vision
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.1.0
+opencv-python>=4.8.0
+supervision>=0.18.0
+
+# Scientific Computing & Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Geospatial & Telemetry
+folium>=0.15.0
+streamlit-folium>=0.16.0
+gpxpy>=1.6.0
+
+# Web Dashboard & Interactive Visualization
+streamlit>=1.30.0
+plotly>=5.18.0
+
+# Utilities
+tqdm>=4.66.0
+PyYAML>=6.0
+Pillow>=10.0.0
+

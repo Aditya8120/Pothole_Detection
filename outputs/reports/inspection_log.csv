@@ -1,0 +1,5 @@
+defect_id,class_name,confidence,severity,first_frame,last_frame,duration_frames,timestamp_sec,latitude,longitude,speed_kmh,bbox_x,bbox_y,bbox_w,bbox_h,estimated_area_px
+1,crack,0.658,Severe,6,690,685,0.24,37.777425,-122.418513,56.8,0.0,36.1,366.33,545.2,199723.12
+19,pothole,1.0,Severe,216,258,43,8.64,37.776237,-122.41893,55.7,264.1,272.3,142.22,52.45,7459.44
+30,pothole,1.0,Severe,246,270,25,9.84,37.776276,-122.418916,55.9,173.1,288.2,321.68,136.53,43918.97
+49,rough_patch,0.498,Severe,360,666,307,14.4,37.777527,-122.418477,52.1,0.0,31.4,462.1,592.77,273919.02

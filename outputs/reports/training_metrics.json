@@ -1,0 +1,15 @@
+{
+    "model_architecture": "yolov8s.pt",
+    "epochs_trained": 30,
+    "batch_size": 16,
+    "image_size": 640,
+    "precision": 1.0,
+    "recall": 0.2667,
+    "mAP_50": 0.3575,
+    "mAP_50_95": 0.2207,
+    "class_wise_mAP50_95": {
+        "pothole": 0.5713,
+        "crack": 0.0908,
+        "rough_patch": 0.0001
+    }
+}
